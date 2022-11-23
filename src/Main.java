@@ -3,14 +3,9 @@ public class Main {
 
         System.out.println("Итоговый миль за пакупки");
         int amount = 1000;
-        boolean b = amount >= -20;
 
         int bonus;
-        if (b) {
-            bonus = (amount / 20);
-        } else {
-            bonus = 0;
-        }
+        bonus = (amount / 20);
         System.out.println(bonus);
     }
 
